@@ -2,6 +2,7 @@
 @media screen and (min-width: 320px){
 .bgInicio{
     background-image: url(../assets/caleufu.svg);
+    background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -48,6 +49,7 @@
 @media screen and (min-width: 600px){
     .bgInicio{
         background-image: url(../assets/libertad.png);
+        background-repeat: no-repeat;
         height: 100vh;
         background-size: cover;
         background-position: center;
@@ -88,6 +90,7 @@
 @media screen and (min-width: 720px){
     .bgInicio{
         background-image: url(../assets/libertad.png);
+        background-repeat: no-repeatgi;
         height: 100vh;
         background-size: cover;
         background-position: center;
