@@ -1,0 +1,24 @@
+footer{
+    background-color: transparent;
+
+
+    .redesSociales{
+        width: 80vw;
+        border-radius: 1em;
+        margin: auto;
+        align-content: center;
+        display: flex;
+        flex-flow: row column;
+        box-shadow: 1px rgba($color: #999999, $alpha: 1.0);
+        justify-content: space-around;
+        border-top: solid 1px rgba($color: #797979, $alpha: 0.3);
+        a{
+            text-decoration: none;
+            font-size: 2.5em;
+            color: white;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}

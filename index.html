@@ -1,27 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link bootstrap: -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- link boxicons: -->
-<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link boxicons: -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- link css animation  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        
-    </header>
+
+<body class="bgInicio">
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bgColor">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/logo-diciurcio.png"
+                            alt="logo-diego-di-ciurcio-fotografia" class="logoNavbar"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbarModifier" id="navbarNavDropdown">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="navbarLinks" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbarLinks" href="pages/biografia.html">Biografia</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class=" dropdown-toggle navbarLinks" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Galeria
+                                </a>
+                                <ul class="dropdown-menu bgDropdownMenu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="pages/paisaje.html">Paisaje</a></li>
+                                    <li><a class="dropdown-item" href="#">Comercial</a></li>
+                                    <li><a class="dropdown-item" href="#">Deportiva</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbarLinks navbarLinkContact" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- <section class="carouselIndex">
+            
+            <div id="carouselExampleSlidesOnly" class="carousel slide carouselModifier" data-bs-ride="carousel">
+                <div class="title">
+                    
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/libertad.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/coColorado.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/sierrasCba.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/cascadaGrande.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+            <!-- <section class="inicio"> -->
+            <!-- </section> -->
+            <div class="title ">
+                <h1 class="animate__animated animate__flipInX animate__slower">FOTOGRAFIA & VIDEOGRAFIA</h1>
+                <h2 class="animate__animated animate__flipInX animate__slower">"Lo importante es ver aquello que resulta invisible para los demas"</h2>
+                <h3 class="animate__animated animate__flipInX animate__slower">Ansel Adams</h3>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <div class="redesSociales">
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxs-map-pin'></i></a>
+        </div>
+    </footer>
 
 
 
 
     <!-- script bootstrap: -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
